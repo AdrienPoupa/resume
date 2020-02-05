@@ -1,10 +1,90 @@
 # Experience template
 - layout: left
-  company: Company name
-  link: Link to company (optional)
-  job_title: Job title
-  dates: Date Range (eg. November 2016 - present)
-  quote: >
-   Short description of the company (optional)
+  company: SimplyPHP
+  link: https://www.simplyphp.com
+  location: Montreal, Canada
+  job_title: Full-Stack Developer
+  dates: March 2019 - Present
   description: | # this will include new lines to allow paragraphs
-    Description of role
+    As a full-stack developer at SimplyPHP, I usually work on <mark>PHP</mark> applications based on <mark>Laravel</mark>
+    and <mark>Vue.js</mark>.
+    Sometimes, I may have to work on applications using <mark>WordPress</mark>, <mark>Zend Framework</mark>,
+    <mark>jQuery</mark>, <mark>WordPress</mark> and other related
+    technologies and languages.
+
+    I am also very interested in the <mark>DevOps</mark> side of those applications as I created an complete architecture on
+    <mark>AWS</mark> to host them. The details are present on my blog.
+
+    I mostly split my time between two projects:
+
+    - A financial application built on <mark>Laravel</mark> and <mark>Vue.js</mark> used by financial advisors.
+    I wrote the export engine that is responsible for generating PDF files that are handed out to the client.
+    I also wrote a generic integration engine that allows fetching financial data from various external providers.
+    I am the principal maintainer of the application so I am responsible for bug fixing and developing new features as well.
+
+    - A multi tenant legacy <mark>PHP</mark> application for which I created the <mark>AWS</mark> infrastructure mentioned above.
+    There were discrepancies between the tenants' databases that I fixed.
+    I created a new <mark>Laravel</mark> application that runs next to the legacy application that is used to
+    create new features using a modern technology stack.
+
+- layout: left
+  company: KDS
+  link: https://www.kds.fr
+  location: Issy-Les-Moulineaux, France
+  job_title: R&D Intern
+  dates: April 2017 - August 2017
+  description: | # this will include new lines to allow paragraphs
+    KDS is a global provider of a corporate travel management software solution.
+    During my internship, I worked on their software written in <mark>C#</mark> and <mark>Ember.js</mark>.
+
+    I refactored the internal API to comply with REST architecture.
+
+    I migrated the mocking framework from RhinoMocks to Moq.
+
+    I prepared the repository for a migration from <mark>SVN</mark> to <mark>Git</mark> by removing unnecessary files
+    from the Git history.
+
+- layout: left
+  company: SepEfrei
+  link: https://www.sepefrei.fr
+  location: Villejuif, France
+  job_title: Web Developer
+  dates: January 2016 - June 2017
+  description: | # this will include new lines to allow paragraphs
+    During my time I Efrei, I worked as a freelancer for Efrei's junior enterprise, SepEfrei.
+
+    I developed a few projects, including [BlockPharma](https://www.blockpharma.com), a <mark>Laravel</mark> application
+    that uses the blockchain to fight against drug counterfeiting by associating the datamatrix present on each
+    drug's package to a unique blockchain transaction by using additional data.
+    That way, the drug's history cannot be altered.
+
+- layout: left
+  company: Diagamter
+  link: https://www.diagamter.com
+  location: Toulouse, France
+  job_title: Intern
+  dates: June 2016 - September 2016
+  description: | # this will include new lines to allow paragraphs
+    Diagamter's main activity is to screen housing properties. That includes checking for issues such as the presence of
+    asbestos or termites, but also getting information about the property such as the surface or the isolation.
+    Such checks are mandatory when selling or renting a property in France.
+    Diagamter’s customers include technicians, notaries, real estate agencies and end customers.
+
+    Diagamter sells its brand and IT platform, called monDiagamter, to franchisers.
+    This platform is based on <mark>Laravel</mark>, and I gained my first professional experience developing new features on the platform.
+
+    Once my internship was over, I kept working for them as a freelancer when needed;
+    I helped building the end customer website as well as the careers website.
+
+- layout: left
+  company: Orange
+  link: https://www.orange.fr
+  location: Blagnac, France
+  job_title: Intern
+  dates: June 2015 - August 2015
+  description: | # this will include new lines to allow paragraphs
+    During my first internship, I worked for Orange, the biggest telecom service provider in France.
+
+    I worked on a <mark>PHP</mark> application called Part Variable Vendeur - Orange Promotion, responsible for
+    calculating the variable part of sellers. It was built on the Orange Framework & Tools, an homemade framework based
+    on components from <mark>Zend Framework 2</mark> and <mark>Symfony</mark>.

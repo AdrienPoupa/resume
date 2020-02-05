@@ -100,6 +100,9 @@
     h4 {
       margin-bottom: 0.1em;
       font-weight: 500;
+      a {
+        font-style: normal;
+      }
 
       @media print {
         margin-bottom: 0.2em;
@@ -179,7 +182,11 @@ p.quote {
 
   @media print {
     text-align: left;
-    padding: 0em 1em;
+    padding: 0 1em;
     margin-top: 1em;
   }
+}
+
+p.location {
+  font-style: italic;
 }

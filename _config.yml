@@ -1,36 +1,36 @@
 # Site
-repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
+repository: AdrienPoupa/resume
 # favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
 # Personal info
-name: Your Name
-title: Your job title
-email: Your email (optional)
-phone: Your phone number (optional)
-website: Your website (eg. https://google.com)(optional)
+name: Adrien Poupa
+title: Full-Stack Developer
+email: adrien@poupa.fr
+phone:
+website: https://adrien.poupa.fr
 
 darkmode: false
 
 # Social links
-twitter_username: jekyllrb
-github_username:  jekyll
-stackoverflow_username: "00000001"
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
-linkedin_username: jekyll
-xing_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
-googleplus_username: +jekyll
-orcid_username: 0000-0000-0000-0000
+twitter_username:
+github_username: AdrienPoupa
+stackoverflow_username:
+dribbble_username:
+facebook_username:
+flickr_username:
+instagram_username:
+linkedin_username: adrienpoupa
+xing_username:
+pinterest_username:
+youtube_username:
+googleplus_username:
+orcid_username:
 
 # Additional icon links
 additional_links:
-- title: Link name
-  icon: Font Awesome brand icon name (eg. fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  url: Link url (eg. https://google.com)
+#- title: Link name
+  #icon: Font Awesome brand icon name (eg. fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+  #url: Link url (eg. https://google.com)
 # - title: another link
 #   icon: font awesome brand icon name (eg. fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
 #   url: Link url (eg. https://google.com)
@@ -41,17 +41,6 @@ additional_links:
 # gtag: "UA-00000000-0"
 # google_analytics: "UA-00000000-0"
 
-# About Section
-# about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
-about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
-
-  You can even add paragraphs by using empty lines like this and add anything else markdown supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images
 
 # Projects Section
 # projects_title: Projects #(Use this to override about projects section title)
@@ -63,11 +52,17 @@ about_content: | # this will include new lines to allow paragraphs
 # education_title: Education #(Use this to override about education section title)
 
 # More Section
-# more_title: A Little More About Me #(Use this to override about more section title)
+more_title: When I'm Not Programming #(Use this to override about more section title)
 more_content: | # this will include new lines to allow paragraphs
-  This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+  When I'm not behind a computer, you can usually find me devoting myself to one of my hobbies.
 
-  Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+  In the summer, it is leg day everyday as I bike everywhere. I find biking to work very rewarding. Some day, I will also bike during the winter!
+
+  In the winter, as I still need to exercise, I play badminton.
+
+  I like to discover Quebec's nature when I go on hikes, especially during Fall when temperatures drop and the foliage turn from green to auburn and gold.
+
+  Cooking is my way relax, it is usually a good recipe to clear my mind.
 
 # Footer
 footer_show_references: true

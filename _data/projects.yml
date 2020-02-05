@@ -1,9 +1,25 @@
 # Project template
 - layout: top-middle
-  name: Project name
-  link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-  github: Github page for project (eg. sproogen/modern-resume-theme)(optional)
+  name: Vinyl Music Player
+  link: https://adrien.poupa.fr/introducing-vinyl-music-player
+  github: AdrienPoupa/VinylMusicPlayer
   quote: >
-    Short overview of the project (optional)
+    Light and slick material design music player for Android
+  description: |
+    This is a local music player for <mark>Android</mark>, written in <mark>Java</mark>. Forked from Phonograph, it is easy to use and customizable
+    (multiple themes including a dark one). It supports folder browsing, sleep timer and a tag editor.
+
+    It currently has over 10,000 installs on the [Play Store](https://play.google.com/store/apps/details?id=com.poupa.vinylmusicplayer)
+    and over 200 stars on [GitHub](https://github.com/AdrienPoupa/VinylMusicPlayer).
+    Because I care about open-source, it is also available on the [F-Droid](https://f-droid.org/packages/com.poupa.vinylmusicplayer) application store.
+
+- layout: top-middle
+  name: Laradate
+  link: https://laradate.xyz
+  github: AdrienPoupa/laradate
+  quote: >
+    Doodle alternative built using Laravel
   description: | # this will include new lines to allow paragraphs
-    Description about the work on/with the project
+    This is a <mark>Laravel</mark> application that provides an alternative to the well-known proprietary service [Doodle](https://doodle.com).
+
+    It is a rewrite of [Framadate](https://framadate.org/). I plan to refactor the frontend to use <mark>Vue.js</mark> or <mark>React</mark>.
