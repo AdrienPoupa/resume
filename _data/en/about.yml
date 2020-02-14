@@ -1,0 +1,20 @@
+# About Section
+title: About Me
+profile_image: https://avatars0.githubusercontent.com/u/15086425
+content: | # this will include new lines to allow paragraphs
+  I am a 24-year-old full-stack developer based in Montreal, QC, Canada.
+
+  As far as I remember, I have always been interested by computers and programming in general.
+  I started playing around with programming at 13, mainly hacking <mark>PHP</mark> scripts.
+
+  I am currently working for SimplyPHP, a PHP-centered web agency.
+  Nowadays, my focus is on <mark>PHP</mark> applications based on <mark>Laravel</mark> and <mark>Vue.js</mark>.
+  I am also interested in <mark>DevOps</mark>, the <mark>AWS</mark> platform, and the cloud in general.
+
+  Open-source software is really important for me, so I try to give back to the community as much as I can
+  by creating new packages, sharing the knowledge I have on my blog, submitting pull requests or reporting bugs.
+
+  I enjoy working with a variety of languages and frameworks and I am always eager to try something new.
+
+  Born and raised in Toulouse, France, I moved to Montreal in 2017 to pursue a Masters degree in Software Engineering
+  at Concordia University. Before that, I was studying Software Engineering at Efrei near Paris.

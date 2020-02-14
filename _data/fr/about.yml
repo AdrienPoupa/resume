@@ -1,5 +1,5 @@
 # About Section
-# about_title: About Me (Use this to override about section title)
+title: A Propos
 profile_image: https://avatars0.githubusercontent.com/u/15086425
 content: | # this will include new lines to allow paragraphs
   I am a 24-year-old full-stack developer based in Montreal, QC, Canada.

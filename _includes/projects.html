@@ -1,6 +1,6 @@
 <div class="container projects-container">
-  <h3>{{ site.projects_title | default: "Projects" }}</h3>
-  {% for project in site.data.projects %}
+  <h3>{{ site.data[page.lang].projects.title }}</h3>
+  {% for project in site.data[page.lang].projects %}
     {% include {{ project.layout | default: 'left' | append: ".html" }} item=project %}
   {% endfor %}
 </div>
