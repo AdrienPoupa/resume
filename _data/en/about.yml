@@ -1,7 +1,8 @@
 # About Section
+site_title: Full-Stack Developer
 title: About Me
 profile_image: https://avatars0.githubusercontent.com/u/15086425
-content: | # this will include new lines to allow paragraphs
+content: |
   I am a 24-year-old full-stack developer based in Montreal, QC, Canada.
 
   As far as I remember, I have always been interested by computers and programming in general.

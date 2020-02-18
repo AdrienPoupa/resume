@@ -1,30 +1,29 @@
 # Education Template
 - title: Education
 - layout: left
-  name: Concordia University
+  name: Université Concordia
   link: https://www.concordia.ca
-  dates: September 2017 - December 2018
+  dates: Septembre 2017 - Décembre 2018
   location: Montreal, Canada
-  qualification: MEng Software Engineering
+  qualification: Maîtrise en génie logiciel
   quote: >
-    Montreal, Quebec, Canada
-  description: | # this will include new lines to allow paragraphs
-    It is a 2-year [program](https://www.concordia.ca/ginacody/computer-science-software-eng/programs/software-eng/meng.html) dedicated to Software Engineering.
-    aimed at enhancing analytic and design skills as well as improve one's ability to present technical material in written form.
-    Throughout the program, I was trained to work on all aspects of the software product life cycle and learned
-    how to develop high-capacity computer software in a controlled, systematic and quantifiable manner and
-    ensure it is reliable, efficient and economic.
+    Montréal, Québec, Canada
+  description: |
+    Programme de deux ans [program](https://www.concordia.ca/ginacody/computer-science-software-eng/programs/software-eng/meng.html) dédié au génie logiciel,
+    visant à améliorer les capacités analytiques ainsi que la communication technique à l'écrit.
+    Tout au long du programme, j'ai été amené à travailler sur tous les aspects du cycle de vie logiciel et j'ai appris
+    comment développer des logiciels fiables, sécuritaires et économes.
 
-    Here is the list of the courses I have taken:
+    Voici la listes des cours que j'ai pris:
     - Advanced Programming Practices:
-    I wrote a [tweet displayer](https://github.com/AdrienPoupa/soen6441) using the <mark>Play framework</mark> in <mark>Java</mark>.
-    I [replicated](https://github.com/AdrienPoupa/soen7481-project) the paper
+    J'ai écrit un [afficheur de tweets](https://github.com/AdrienPoupa/soen6441) avec le <mark>framework Play</mark> en <mark>Java</mark>.
+    J'ai [répliqué](https://github.com/AdrienPoupa/soen7481-project) le papier
     ["How Not to Structure Your Database-backed Web Applications: A Study of Performance Bugs in the Wild"](https://ieeexplore.ieee.org/document/8453153)
-    in the Laravel ecosystem. I found performance issues in some open-source applications and I fixed them.
-    - Intro to Artificial Intelligence: I wrote [3 mini projects](https://github.com/AdrienPoupa/comp6721) in <mark>Java</mark> and <mark>Python</mark>
-    to learn about Good Old Fashioned Artificial Intelligence, Machine Learning on datasets and Natural Language Processing.
+    dans l'écosystème Laravel. J'ai trouvé des problèmes de performances et je les ai réglés.
+    - Introduction to Artificial Intelligence: J'ai écrit [3 mini projects](https://github.com/AdrienPoupa/comp6721) en <mark>Java</mark> et <mark>Python</mark>
+    à propos du Good Old Fashioned Artificial Intelligence, du Machine Learning et du Natural Language Processing.
     - Software Verification and Testing:
-    I wrote a [static bug detector](https://github.com/AdrienPoupa/soen7481-assignment) in <mark>Java</mark>.
+    J'ai écrit un [détecteur de bugs statique](https://github.com/AdrienPoupa/soen7481-assignment) en <mark>Java</mark>.
     - Advanced Design Software Architecture
     - Software Comprehension and Maintenance
     - Software Design Methodologies
@@ -36,28 +35,28 @@
 - layout: left
   name: Efrei
   link: https://www.efrei.fr
-  dates: September 2015 - August 2017
+  dates: Septembre 2015 - Août 2017
   location: Villejuif, France
-  qualification: Bachelor and Masters of Software Engineering
-  description: | # this will include new lines to allow paragraphs
-    I started to study computer science and software engineering full-time at Efrei
-    (Engineering School of Information and Digital Technologies),
-    where I prepared an engineering bachelor and masters degree in software engineering.
+  qualification: Baccalauréat et Maîtrise en génie logiciel
+  description: |
+    J'ai étudié le génie logiciel à temps plein à l'Efrei
+    (École d'ingénieur généraliste en informatique et technologies du numérique)
+    où j'ai préparé un diplôme génie logiciel.
 
-    I obtained my undergraduate degree in software engineering there, and took advantage of the dual-degree program
-    they had with Concordia University to move to Montreal. This means that graduating in Montreal made me also
-    graduate from Efrei with a Masters.
+    J'y ai obtenu mon baccalauréat en génie logiciel, et j'ai profité de l'opportunité de pouvoir participer à un
+    programme de double-diplôme avec l'université Concordia pour finir mes études à Montréal. Ainsi, l'obention de
+    mon diplôme canadien a resulté en l'obtention de ma maîtrise de l'Efrei. Je suis donc ingénieur agréé CTI en France.
 
 - layout: left
   name: APU
   link: http://www.apu.edu.my
-  dates: April 2016 - June 2016
-  location: Kuala Lumpur, Malaysia
-  description: | # this will include new lines to allow paragraphs
-    Exchange semester done while I was studying at Efrei. This is when I discovered what living abroad was like for the
-    first time and that played a major role in my decision to move to Canada.
+  dates: Avril 2016 - Juin 2016
+  location: Kuala Lumpur, Malaisie
+  description: |
+    Semestre d'échange lors de mes études à l'Efrei. C'est lors de cettte occasion que j'ai découvert la vie quotidienne
+    hors de France. Cela a joué un rôle majeur dans ma décision de vivre au Canada.
 
-    I took the following courses there:
+    J'y ai pris les cours suivants:
     - Entrepreneurship
     - Operating Systems
     - Introduction to Web Programming
@@ -66,12 +65,12 @@
 - layout: left
   name: Icam
   link: https://www.icam.fr
-  dates: September 2013 - August 2015
+  dates: Septembre 2013 - Août 2015
   location: Toulouse, France
-  description: | # this will include new lines to allow paragraphs
-    Two-year undergraduate intensive course in mathematics, physics, engineering sciences and computer science.
+  description: |
+    Classe préparatoire PTSI/PT, avec des cours intensifs en mathématiques, physiques et sciences de l'ingénieur.
 
-    Icam (Institut Catholique des Arts et Metiers) is a general engineering school, with a focus in mechanic.
+    L'Icam (Institut Catholique des Arts et Métiers) est une école d'ingénieurs générale orientée vers la mécanique.
 
-    At the term of this two-year formation, I passed a national exam (Banque PT) and entered Efrei,
-    which was my top choice as I wanted to prepare a software engineering degree rather than a mechanical one.
+    A l'issue de ces deux ans, j'ai passé le concours Banque PT et j'ai intégré l'Efrei, voulant me réorienter vers
+    un cursus plus informatique que mécanique.

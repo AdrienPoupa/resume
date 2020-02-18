@@ -6,7 +6,7 @@
   location: Montreal, Canada
   job_title: Full-Stack Developer
   dates: March 2019 - Present
-  description: | # this will include new lines to allow paragraphs
+  description: |
     As a full-stack developer at SimplyPHP, I usually work on <mark>PHP</mark> applications based on <mark>Laravel</mark>
     and <mark>Vue.js</mark>.
     Sometimes, I may have to work on applications using <mark>WordPress</mark>, <mark>Zend Framework</mark>,
@@ -33,7 +33,7 @@
   location: Issy-Les-Moulineaux, France
   job_title: R&D Intern
   dates: April 2017 - August 2017
-  description: | # this will include new lines to allow paragraphs
+  description: |
     KDS is a global provider of a corporate travel management software solution.
     During my internship, I worked on their software written in <mark>C#</mark> and <mark>Ember.js</mark>.
 
@@ -50,7 +50,7 @@
   location: Villejuif, France
   job_title: Web Developer
   dates: January 2016 - June 2017
-  description: | # this will include new lines to allow paragraphs
+  description: |
     During my time I Efrei, I worked as a freelancer for Efrei's junior enterprise, SepEfrei.
 
     I developed a few projects, including [BlockPharma](https://www.blockpharma.com), a <mark>Laravel</mark> application
@@ -64,7 +64,7 @@
   location: Toulouse, France
   job_title: Intern
   dates: June 2016 - September 2016
-  description: | # this will include new lines to allow paragraphs
+  description: |
     Diagamter's main activity is to screen housing properties. That includes checking for issues such as the presence of
     asbestos or termites, but also getting information about the property such as the surface or the isolation.
     Such checks are mandatory when selling or renting a property in France.
@@ -82,7 +82,7 @@
   location: Blagnac, France
   job_title: Intern
   dates: June 2015 - August 2015
-  description: | # this will include new lines to allow paragraphs
+  description: |
     During my first internship, I worked for Orange, the biggest telecom service provider in France.
 
     I worked on a <mark>PHP</mark> application called Part Variable Vendeur - Orange Promotion, responsible for

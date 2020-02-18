@@ -8,7 +8,7 @@
   qualification: MEng Software Engineering
   quote: >
     Montreal, Quebec, Canada
-  description: | # this will include new lines to allow paragraphs
+  description: |
     It is a 2-year [program](https://www.concordia.ca/ginacody/computer-science-software-eng/programs/software-eng/meng.html) dedicated to Software Engineering.
     aimed at enhancing analytic and design skills as well as improve one's ability to present technical material in written form.
     Throughout the program, I was trained to work on all aspects of the software product life cycle and learned
@@ -21,7 +21,7 @@
     I [replicated](https://github.com/AdrienPoupa/soen7481-project) the paper
     ["How Not to Structure Your Database-backed Web Applications: A Study of Performance Bugs in the Wild"](https://ieeexplore.ieee.org/document/8453153)
     in the Laravel ecosystem. I found performance issues in some open-source applications and I fixed them.
-    - Intro to Artificial Intelligence: I wrote [3 mini projects](https://github.com/AdrienPoupa/comp6721) in <mark>Java</mark> and <mark>Python</mark>
+    - Introduction to Artificial Intelligence: I wrote [3 mini projects](https://github.com/AdrienPoupa/comp6721) in <mark>Java</mark> and <mark>Python</mark>
     to learn about Good Old Fashioned Artificial Intelligence, Machine Learning on datasets and Natural Language Processing.
     - Software Verification and Testing:
     I wrote a [static bug detector](https://github.com/AdrienPoupa/soen7481-assignment) in <mark>Java</mark>.
@@ -39,7 +39,7 @@
   dates: September 2015 - August 2017
   location: Villejuif, France
   qualification: Bachelor and Masters of Software Engineering
-  description: | # this will include new lines to allow paragraphs
+  description: |
     I started to study computer science and software engineering full-time at Efrei
     (Engineering School of Information and Digital Technologies),
     where I prepared an engineering bachelor and masters degree in software engineering.
@@ -53,7 +53,7 @@
   link: http://www.apu.edu.my
   dates: April 2016 - June 2016
   location: Kuala Lumpur, Malaysia
-  description: | # this will include new lines to allow paragraphs
+  description: |
     Exchange semester done while I was studying at Efrei. This is when I discovered what living abroad was like for the
     first time and that played a major role in my decision to move to Canada.
 
@@ -68,7 +68,7 @@
   link: https://www.icam.fr
   dates: September 2013 - August 2015
   location: Toulouse, France
-  description: | # this will include new lines to allow paragraphs
+  description: |
     Two-year undergraduate intensive course in mathematics, physics, engineering sciences and computer science.
 
     Icam (Institut Catholique des Arts et Metiers) is a general engineering school, with a focus in mechanic.

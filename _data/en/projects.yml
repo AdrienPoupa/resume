@@ -20,7 +20,7 @@
   github: AdrienPoupa/laradate
   quote: >
     Doodle alternative built using Laravel
-  description: | # this will include new lines to allow paragraphs
+  description: |
     This is a <mark>Laravel</mark> application that provides an alternative to the well-known proprietary service [Doodle](https://doodle.com).
 
     It is a rewrite of [Framadate](https://framadate.org/). I plan to refactor the frontend to use <mark>Vue.js</mark> or <mark>React</mark>.

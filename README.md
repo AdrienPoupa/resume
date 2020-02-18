@@ -64,7 +64,7 @@ A list of all your education, each education will follow this format
   qualification: Qualifications (eg. BA Performing Arts)
   quote: >
     Short institution or course description (optional)
-  description: | # this will include new lines to allow paragraphs
+  description: |
     Description of qualification
 ```
 
@@ -78,7 +78,7 @@ A list of all your experience, each experience will follow this format
   dates: Date Range (eg. November 2016 - present)
   quote: >
    Short description of the company (optional)
-  description: | # this will include new lines to allow paragraphs
+  description: |
     Description of role
 ```
 
@@ -94,7 +94,7 @@ If you wish to specify multiple job titles for a single company, use this format
       dates: Date Range (eg. January 2015 - November 2016)
   quote: >
    Short description of the company (optional)
-  description: | # this will include new lines to allow paragraphs
+  description: |
     Description of role
 ```
 
@@ -107,7 +107,7 @@ A list of all your projects, each project will follow this format
   github: Github page for project (eg. sproogen/modern-resume-theme)(optional)
   quote: >
     Short overview of the project (optional)
-  description: | # this will include new lines to allow paragraphs
+  description: |
     Description about the work on/with the project
 ```
 
