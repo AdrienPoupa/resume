@@ -25,7 +25,7 @@
     - A multi tenant legacy <mark>PHP</mark> application for which I created the <mark>AWS</mark> infrastructure mentioned above.
     There were discrepancies between the tenants' databases that I fixed.
     I created a new <mark>Laravel</mark> application that runs next to the legacy application that is used to
-    create new features using a modern technology stack.
+    create new features using a modern technology stack, using the strangler pattern.
 
 - layout: left
   company: KDS
@@ -51,7 +51,7 @@
   job_title: Web Developer
   dates: January 2016 - June 2017
   description: |
-    During my time I Efrei, I worked as a freelancer for Efrei's junior enterprise, SepEfrei.
+    During my time at Efrei, I worked as a freelancer for Efrei's junior enterprise, SepEfrei.
 
     I developed a few projects, including [BlockPharma](https://www.blockpharma.com), a <mark>Laravel</mark> application
     that uses the blockchain to fight against drug counterfeiting by associating the datamatrix present on each
@@ -71,7 +71,8 @@
     Diagamter’s customers include technicians, notaries, real estate agencies and end customers.
 
     Diagamter sells its brand and IT platform, called monDiagamter, to franchisers.
-    This platform is based on <mark>Laravel</mark>, and I gained my first professional experience developing new features on the platform.
+    This platform is based on <mark>Laravel</mark>, and I gained my first professional experience developing
+    new features on the platform.
 
     Once my internship was over, I kept working for them as a freelancer when needed;
     I helped building the end customer website as well as the careers website.

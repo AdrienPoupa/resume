@@ -121,6 +121,16 @@
           Web: {% include a.html href=site.website %}{{ site.website | escape }}</a>
         </p>
       {%- endif -%}
+      {%- if page.lang == 'fr' -%}
+      <p>
+        <a href="/en">See in English</a>
+      </p>
+      {%- endif -%}
+      {%- if page.lang == 'en' -%}
+      <p>
+        <a href="/fr">Voir en français</a>
+      </p>
+      {%- endif -%}
     </div>
   </div>
 </div>

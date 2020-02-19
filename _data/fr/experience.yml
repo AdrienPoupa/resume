@@ -1,91 +1,87 @@
 # Experience template
-- title: Experience
+- title: Expérience Professionnelle
 - layout: left
   company: SimplyPHP
   link: https://www.simplyphp.com
-  location: Montreal, Canada
-  job_title: Full-Stack Developer
-  dates: March 2019 - Present
+  location: Montréal, Canada
+  job_title: Développeur Full-Stack
+  dates: Depuis Mars 2019
   description: |
-    As a full-stack developer at SimplyPHP, I usually work on <mark>PHP</mark> applications based on <mark>Laravel</mark>
-    and <mark>Vue.js</mark>.
-    Sometimes, I may have to work on applications using <mark>WordPress</mark>, <mark>Zend Framework</mark>,
-    <mark>jQuery</mark>, <mark>WordPress</mark> and other related
-    technologies and languages.
+    En tant que développeur full-stack à SimplyPHP, je travaille quotidiennement sur des applications <mark>PHP</mark>
+    utilisant principalement sur les frameworks <mark>Laravel</mark> pour le backend et <mark>Vue.js</mark> pour le frontend.
+    J'ai aussi été amené à travailler sur des applications utilisant <mark>WordPress</mark>, <mark>Zend Framework</mark>,
+    <mark>jQuery</mark>, <mark>WordPress</mark> et autres.
 
-    I am also very interested in the <mark>DevOps</mark> side of those applications as I created an complete architecture on
-    <mark>AWS</mark> to host them. The details are present on my blog.
+    Je suis également très intéressé par le côté <mark>DevOps</mark> des applications; j'ai créé une architecture
+    complète sur <mark>AWS</mark> pour les héberger. Les détails sont sur mon blog.
 
-    I mostly split my time between two projects:
+    Au quotidien, je partage mon temps entre deux projets:
 
-    - A financial application built on <mark>Laravel</mark> and <mark>Vue.js</mark> used by financial advisors.
-    I wrote the export engine that is responsible for generating PDF files that are handed out to the client.
-    I also wrote a generic integration engine that allows fetching financial data from various external providers.
-    I am the principal maintainer of the application so I am responsible for bug fixing and developing new features as well.
-
-    - A multi tenant legacy <mark>PHP</mark> application for which I created the <mark>AWS</mark> infrastructure mentioned above.
-    There were discrepancies between the tenants' databases that I fixed.
-    I created a new <mark>Laravel</mark> application that runs next to the legacy application that is used to
-    create new features using a modern technology stack.
+    - Une application financière utilisant <mark>Laravel</mark> et <mark>Vue.js</mark> utilisée par des conseillers financiers.
+    J'ai écrit le moteur d'export de rapports qui est responsable pour la génération de fichiers PDF donnés aux clients.
+    J'ai également écrit une intégration générique supportant plusieurs aggrégateurs de données financières.
+    En tant que développeur principal de cette application, je suis responsable pour le développement de nouvelles
+    fonctionnalités et pour la correction de bugs.
+    - Une application multi-tenant legacy écrite en PHP procédural pour laquelle j'ai créé l'architecture <mark>AWS</mark>
+    mentionnée plus haut. J'ai réglé les différences entre les différentes bases de données des différents tenants et
+    j'ai créé une nouvelle application <mark>Laravel</mark> intégrée à l'application legacy pour développer les nouvelles
+    fonctionnalités sur une stack moderne et appliquer le strangler pattern.
 
 - layout: left
   company: KDS
   link: https://www.kds.fr
   location: Issy-Les-Moulineaux, France
-  job_title: R&D Intern
-  dates: April 2017 - August 2017
+  job_title: Stagiaire R&D
+  dates: Avril 2017 - Août 2017
   description: |
-    KDS is a global provider of a corporate travel management software solution.
-    During my internship, I worked on their software written in <mark>C#</mark> and <mark>Ember.js</mark>.
+    KDS est une compagnie éditant KDS Neo, un logiciel de gestion des voyages et des notes de frais.
+    Pendant mon stage, j'ai travaillé sur leur logiciel écrit en <mark>C#</mark> et <mark>Ember.js</mark>
 
-    I refactored the internal API to comply with REST architecture.
+    J'ai réécrit l'API interne pour la rendre compatible avec les standards REST.
 
-    I migrated the mocking framework from RhinoMocks to Moq.
+    J'ai migré le framework de mock de RhinoMocks à Moq.
 
-    I prepared the repository for a migration from <mark>SVN</mark> to <mark>Git</mark> by removing unnecessary files
-    from the Git history.
+    J'ai préparé le repository SVN pour une migration à Git en supprimant les fichiers superflus de l'historique Git.
 
 - layout: left
   company: SepEfrei
   link: https://www.sepefrei.fr
   location: Villejuif, France
-  job_title: Web Developer
-  dates: January 2016 - June 2017
+  job_title: Développeur Web
+  dates: Janvier 2016 - Juin 2017
   description: |
-    During my time I Efrei, I worked as a freelancer for Efrei's junior enterprise, SepEfrei.
+    Pendant mes études à l'Efrei, j'ai travaillé comme développeur freelance pour la junior entreprise de l'Efrei, SepEfrei.
 
-    I developed a few projects, including [BlockPharma](https://www.blockpharma.com), a <mark>Laravel</mark> application
-    that uses the blockchain to fight against drug counterfeiting by associating the datamatrix present on each
-    drug's package to a unique blockchain transaction by using additional data.
-    That way, the drug's history cannot be altered.
+    J'ai développé plusieurs projects, dont [BlockPharma](https://www.blockpharma.com), une application Laravel qui utilise
+    la blockchain pour lutter contre la contrefaçon des médicaments. Elle utilise le datamatrix présent sur chaque emballage
+    de médicament en l'insérant dans la blockchain, écrivant l'information de manière irréversible, résultant en un
+    historique inaltérable propre à chaque paquet.
 
 - layout: left
   company: Diagamter
   link: https://www.diagamter.com
   location: Toulouse, France
-  job_title: Intern
-  dates: June 2016 - September 2016
+  job_title: Développeur Web Stagiaire
+  dates: Juin 2016 - Septembre 2016
   description: |
-    Diagamter's main activity is to screen housing properties. That includes checking for issues such as the presence of
-    asbestos or termites, but also getting information about the property such as the surface or the isolation.
-    Such checks are mandatory when selling or renting a property in France.
-    Diagamter’s customers include technicians, notaries, real estate agencies and end customers.
+    L'activité principale de Diagamter est réaliser des diagnostics immobiliers. Diagamter vend sa marque à des franchisés
+    indépendants qui utilisent la solution logicielle qui leur est proposée, monDiagamter. Les clients de Diagamter
+    incluent des diagnostiqueurs immobiliers, des notaires, des agences immobilières et des clients finaux.
 
-    Diagamter sells its brand and IT platform, called monDiagamter, to franchisers.
-    This platform is based on <mark>Laravel</mark>, and I gained my first professional experience developing new features on the platform.
+    La plateforme est basée sur <mark>Laravel</mark>.
 
-    Once my internship was over, I kept working for them as a freelancer when needed;
-    I helped building the end customer website as well as the careers website.
+    Une fois mon stage terminé, j'ai continué à travailler pour Diagamter en tant que freelance lorsque nécessaire.
+    J'ai aidé à bâtir le site vitrine où le client peut directement réserver un diagnostic ainsi que le site carrières.
 
 - layout: left
   company: Orange
   link: https://www.orange.fr
   location: Blagnac, France
-  job_title: Intern
-  dates: June 2015 - August 2015
+  job_title: Développeur Web Stagiaire
+  dates: Juin 2015 - Août 2015
   description: |
-    During my first internship, I worked for Orange, the biggest telecom service provider in France.
+    Pendant mon premier stage en entreprise, j'ai travaillé pour Orange, le plus gros FAI de France.
 
-    I worked on a <mark>PHP</mark> application called Part Variable Vendeur - Orange Promotion, responsible for
-    calculating the variable part of sellers. It was built on the Orange Framework & Tools, an homemade framework based
-    on components from <mark>Zend Framework 2</mark> and <mark>Symfony</mark>.
+    J'ai travaillé sur une application <mark>PHP</mark> nommée Part Variable Vendeur - Orange Promotion, responsable
+    du calcul de la part variable des vendeurs. Elle se base sur l'Orange Framework & Tools, un framework maison
+    basé sur des composants venant de <mark>Zend Framework 2</mark> et <mark>Symfony</mark>.

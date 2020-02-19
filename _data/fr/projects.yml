@@ -1,26 +1,28 @@
 # Project template
-- title: Projects
+- title: Projets
 - layout: top-middle
   name: Vinyl Music Player
   link: https://adrien.poupa.fr/introducing-vinyl-music-player
   github: AdrienPoupa/VinylMusicPlayer
   quote: >
-    Light and slick material design music player for Android
+    Lecteur de musique pour Android
   description: |
-    This is a local music player for <mark>Android</mark>, written in <mark>Java</mark>. Forked from Phonograph, it is easy to use and customizable
-    (multiple themes including a dark one). It supports folder browsing, sleep timer and a tag editor.
+    Vinyl Music Player est un lecteur musical local pour <mark>Android</mark>, écrit en <mark>Java</mark>.
+    Forké depuis Phonograph, il a un design material qui suit les directives de Google et qui est agréable à l'oeil.
+    Il est facile d'utilisation et customisable (plusieurs thèmes sont disponibles, dont un noir).
+    Il permet la navigation par répertoires, a une minuterie et un éditeur de tags.
 
-    It currently has over 10,000 installs on the [Play Store](https://play.google.com/store/apps/details?id=com.poupa.vinylmusicplayer)
-    and over 200 stars on [GitHub](https://github.com/AdrienPoupa/VinylMusicPlayer).
-    Because I care about open-source, it is also available on the [F-Droid](https://f-droid.org/packages/com.poupa.vinylmusicplayer) application store.
+    Il a actuellement plus de 10,000 installations sur le [Play Store](https://play.google.com/store/apps/details?id=com.poupa.vinylmusicplayer)
+    et plus de 200 étoiles sur [GitHub](https://github.com/AdrienPoupa/VinylMusicPlayer).
+    Parce que l'opem-source est important pour moi, il est aussi disponible sur [F-Droid](https://f-droid.org/packages/com.poupa.vinylmusicplayer).
 
 - layout: top-middle
   name: Laradate
   link: https://laradate.xyz
   github: AdrienPoupa/laradate
   quote: >
-    Doodle alternative built using Laravel
+    Alternative à Doodle basée sur Laravel
   description: |
-    This is a <mark>Laravel</mark> application that provides an alternative to the well-known proprietary service [Doodle](https://doodle.com).
+    Il s'agit d'une application <mark>Laravel</mark> fournissant une alternative au bien connu service propriétaire [Doodle](https://doodle.com).
 
-    It is a rewrite of [Framadate](https://framadate.org/). I plan to refactor the frontend to use <mark>Vue.js</mark> or <mark>React</mark>.
+    C'est une réécriture de [Framadate](https://framadate.org/). Je prévois de réécrire le frontend en utilisant <mark>Vue.js</mark> ou <mark>React</mark>.

@@ -6,11 +6,9 @@
   dates: Septembre 2017 - Décembre 2018
   location: Montreal, Canada
   qualification: Maîtrise en génie logiciel
-  quote: >
-    Montréal, Québec, Canada
   description: |
-    Programme de deux ans [program](https://www.concordia.ca/ginacody/computer-science-software-eng/programs/software-eng/meng.html) dédié au génie logiciel,
-    visant à améliorer les capacités analytiques ainsi que la communication technique à l'écrit.
+    [Programme](https://www.concordia.ca/ginacody/computer-science-software-eng/programs/software-eng/meng.html) de
+    deux ans dédié au génie logiciel, visant à améliorer les capacités analytiques ainsi que la communication technique à l'écrit.
     Tout au long du programme, j'ai été amené à travailler sur tous les aspects du cycle de vie logiciel et j'ai appris
     comment développer des logiciels fiables, sécuritaires et économes.
 
@@ -20,7 +18,7 @@
     J'ai [répliqué](https://github.com/AdrienPoupa/soen7481-project) le papier
     ["How Not to Structure Your Database-backed Web Applications: A Study of Performance Bugs in the Wild"](https://ieeexplore.ieee.org/document/8453153)
     dans l'écosystème Laravel. J'ai trouvé des problèmes de performances et je les ai réglés.
-    - Introduction to Artificial Intelligence: J'ai écrit [3 mini projects](https://github.com/AdrienPoupa/comp6721) en <mark>Java</mark> et <mark>Python</mark>
+    - Introduction to Artificial Intelligence: J'ai écrit [3 mini projets](https://github.com/AdrienPoupa/comp6721) en <mark>Java</mark> et <mark>Python</mark>
     à propos du Good Old Fashioned Artificial Intelligence, du Machine Learning et du Natural Language Processing.
     - Software Verification and Testing:
     J'ai écrit un [détecteur de bugs statique](https://github.com/AdrienPoupa/soen7481-assignment) en <mark>Java</mark>.
@@ -45,7 +43,8 @@
 
     J'y ai obtenu mon baccalauréat en génie logiciel, et j'ai profité de l'opportunité de pouvoir participer à un
     programme de double-diplôme avec l'université Concordia pour finir mes études à Montréal. Ainsi, l'obention de
-    mon diplôme canadien a resulté en l'obtention de ma maîtrise de l'Efrei. Je suis donc ingénieur agréé CTI en France.
+    mon diplôme canadien a resulté en l'obtention de ma maîtrise de l'Efrei.
+    Je suis donc également ingénieur agréé CTI en France.
 
 - layout: left
   name: APU
