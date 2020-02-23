@@ -18,6 +18,8 @@
     J'ai [répliqué](https://github.com/AdrienPoupa/soen7481-project) le papier
     ["How Not to Structure Your Database-backed Web Applications: A Study of Performance Bugs in the Wild"](https://ieeexplore.ieee.org/document/8453153)
     dans l'écosystème Laravel. J'ai trouvé des problèmes de performances et je les ai réglés.
+    - J'ai [ajouté le support](https://cdn.poupa.fr/uploads/2020/02/ptidej-csharp-parser.pdf) du C# à la 
+    [Ptidej tool suite](http://www.ptidej.net/downloads/tools/ptidejtoolsuite) en utilisant ANTLR4.
     - Introduction to Artificial Intelligence: J'ai écrit [3 mini projets](https://github.com/AdrienPoupa/comp6721) en <mark>Java</mark> et <mark>Python</mark>
     à propos du Good Old Fashioned Artificial Intelligence, du Machine Learning et du Natural Language Processing.
     - Software Verification and Testing:
@@ -45,6 +47,10 @@
     programme de double-diplôme avec l'université Concordia pour finir mes études à Montréal. Ainsi, l'obention de
     mon diplôme canadien a resulté en l'obtention de ma maîtrise de l'Efrei.
     Je suis donc également ingénieur agréé CTI en France.
+    
+    J'ai réalisé des projets intéressants, notamment un [chat en C#](https://github.com/AdrienPoupa/chat) 
+    utilisant des sockets TCP et une [application Android](https://github.com/AdrienPoupa/epollen) 
+    montrant les niveaux de pollens.
 
 - layout: left
   name: APU
