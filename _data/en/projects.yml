@@ -15,6 +15,16 @@
     Because I care about open-source, it is also available on the [F-Droid](https://f-droid.org/packages/com.poupa.vinylmusicplayer) application store.
 
 - layout: top-middle
+  name: Laradose
+  link: https://github.com/AdrienPoupa/laradose
+  github: AdrienPoupa/laradose
+  quote: >
+    Customizable Docker-compose template made for Laravel
+  description: |
+    Laradose aims to bring a light yet powerful and configurable Docker compose configuration to run a Laravel application locally. 
+    Installation and configuration are made easy with the provided Bash script. Custom settings are saved in Laravel's .env.
+
+- layout: top-middle
   name: Laradate
   link: https://laradate.xyz
   github: AdrienPoupa/laradate
