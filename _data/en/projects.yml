@@ -21,7 +21,7 @@
   quote: >
     Customizable Docker-compose template made for Laravel
   description: |
-    Laradose aims to bring a light yet powerful and configurable Docker compose configuration to run a Laravel application locally. 
+    Laradose aims to bring a light yet powerful and configurable <mark>Docker-compose</mark> configuration to run a <mark>Laravel</mark> application locally. 
     Installation and configuration are made easy with the provided Bash script. Custom settings are saved in Laravel's .env.
 
 - layout: top-middle
