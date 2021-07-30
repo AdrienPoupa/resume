@@ -9,7 +9,8 @@
   dates: Since October 2020
   description: |
     I am working on [Star Citizen](https://robertsspaceindustries.com)'s e-commerce website.
-    Backend technologies are PHP, Node.js + TypeScript; frontend is based on React + TypeScript.
+    Backend technologies are <mark>PHP</mark>, <mark>Node.js</mark> + <mark>TypeScript</mark>;
+    frontend is based on <mark>React</mark> + <mark>TypeScript</mark>.
 
     I improved the cart flow performance resulting in stability during major sale events,
     and reduced pipeline duration by half leading to increased developer productivity.

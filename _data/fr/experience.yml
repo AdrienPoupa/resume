@@ -9,7 +9,8 @@
   dates: Depuis Octobre 2020
   description: |
     Je travaille sur le site web de [Star Citizen](https://robertsspaceindustries.com), plus précisement l'aspect
-    de vente en ligne. Les technologies backend sont PHP, Node.js + TypeScript, ainsi que React + TypeScript en frontend.
+    de vente en ligne. Les technologies backend sont <mark>PHP</mark>, <mark>Node.js</mark> + <mark>TypeScript</mark>,
+    ainsi que <mark>React</mark> + <mark>TypeScript</mark> en frontend.
 
     J'ai été amené à améliorer des performances du tunnel de vente pour supporter les pics de traffic
     durant les événements de vente majeurs.
