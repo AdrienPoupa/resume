@@ -13,8 +13,22 @@
     Il permet la navigation par répertoires, a une minuterie et un éditeur de tags.
 
     Il a actuellement plus de 10,000 installations sur le [Play Store](https://play.google.com/store/apps/details?id=com.poupa.vinylmusicplayer)
-    et plus de 200 étoiles sur [GitHub](https://github.com/AdrienPoupa/VinylMusicPlayer).
+    et plus de 400 étoiles sur [GitHub](https://github.com/AdrienPoupa/VinylMusicPlayer).
     Parce que l'open-source est important pour moi, il est aussi disponible sur [F-Droid](https://f-droid.org/packages/com.poupa.vinylmusicplayer).
+
+- layout: top-middle
+  name: Attestation de Déplacement
+  link: https://github.com/AdrienPoupa/AttestationDeplacement
+  github: AdrienPoupa/AttestationDeplacement
+  quote: >
+    Application Android de génération d'attestations de déplacement.
+  description: |
+    Devant l'absence de solution gouvernementale native, le site web proposé ne remplacant pas à mon sens une application
+    native, j'ai développé une application simple, propre et ne nécessitant aucune permission pour remplir le formulaire
+    d'attestation de déplacement.
+
+    Cette application a été trés populaire et fut installée plus d'un million de fois en
+    décembre 2020. Je suis fier d'avoir aidé tant de personnes durant ces temps incertains.
 
 - layout: top-middle
   name: Laradose
@@ -23,7 +37,7 @@
   quote: >
     Template Docker-compose modifiable pour Laravel
   description: |
-    Laradose propose une configuration Docker compose légère mais puissante pour lancer des applications Laravel localement. 
+    Laradose propose une configuration Docker compose légère mais puissante pour lancer des applications Laravel localement.
     L'installation et la configuration sont rendues faciles grâce au script Bash fourni. Les paramètres sont sauvegardés dans le fichier .env de Laravel.
 
 - layout: top-middle

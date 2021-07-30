@@ -11,8 +11,24 @@
     (multiple themes including a dark one). It supports folder browsing, sleep timer and a tag editor.
 
     It currently has over 10,000 installs on the [Play Store](https://play.google.com/store/apps/details?id=com.poupa.vinylmusicplayer)
-    and over 200 stars on [GitHub](https://github.com/AdrienPoupa/VinylMusicPlayer).
+    and over 400 stars on [GitHub](https://github.com/AdrienPoupa/VinylMusicPlayer).
     Because I care about open-source, it is also available on the [F-Droid](https://f-droid.org/packages/com.poupa.vinylmusicplayer) application store.
+
+- layout: top-middle
+  name: Attestation de Déplacement
+  link: https://github.com/AdrienPoupa/AttestationDeplacement
+  github: AdrienPoupa/AttestationDeplacement
+  quote: >
+    Travel certificate Android application during France's COVID lockdown.
+  description: |
+    At the peak of the epidemic wave, the French government mandated the usage of travel certificates to curb the number
+    of cases. Those certificates were required to run errands including going to the grocery store.
+    The application provided an official form as well as a website to fill it, but no native mobile application.
+
+    I created a clean, simple and permissionless application to fill the form from a native application.
+    It was very sucessful as it reached 1 million of active devices in December 2020 on the Play Store alone.
+
+    I am glad to have been able to help many people through a difficult time.
 
 - layout: top-middle
   name: Laradose
@@ -21,7 +37,7 @@
   quote: >
     Customizable Docker-compose template made for Laravel
   description: |
-    Laradose aims to bring a light yet powerful and configurable <mark>Docker-compose</mark> configuration to run a <mark>Laravel</mark> application locally. 
+    Laradose aims to bring a light yet powerful and configurable <mark>Docker-compose</mark> configuration to run a <mark>Laravel</mark> application locally.
     Installation and configuration are made easy with the provided Bash script. Custom settings are saved in Laravel's .env.
 
 - layout: top-middle
