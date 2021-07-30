@@ -1,5 +1,20 @@
 # Experience template
 - title: Expérience Professionnelle
+
+- layout: left
+  company: Turbulent
+  link: https://turbulent.ca
+  location: Montréal, Canada
+  job_title: Développeur Full-Stack
+  dates: Depuis Octobre 2020
+  description: |
+    Je travaille sur le site web de [Star Citizen](https://robertsspaceindustries.com), plus précisement l'aspect
+    de vente en ligne. Les technologies backend sont PHP, Node.js + TypeScript, ainsi que React + TypeScript en frontend.
+
+    J'ai été amené à améliorer des performances du tunnel de vente pour supporter les pics de traffic
+    durant les événements de vente majeurs.
+    J'ai aussi réduit le temps d'exécution des pipelines résultant en une amélioration de la productivité de l'équipe.
+
 - layout: left
   company: SimplyPHP
   link: https://www.simplyphp.com
@@ -7,7 +22,7 @@
   job_title: Développeur Full-Stack
   dates: Mars 2019 - Octobre 2020
   description: |
-    En tant que développeur full-stack à SimplyPHP, je travaille quotidiennement sur des applications <mark>PHP</mark>
+    En tant que développeur full-stack à SimplyPHP, je travaillais quotidiennement sur des applications <mark>PHP</mark>
     utilisant principalement sur les frameworks <mark>Laravel</mark> pour le backend et <mark>Vue.js</mark> pour le frontend.
     J'ai aussi été amené à travailler sur des applications utilisant <mark>WordPress</mark>, <mark>Zend Framework</mark>,
     <mark>jQuery</mark> et autres.
@@ -15,7 +30,7 @@
     Je suis également très intéressé par le côté <mark>DevOps</mark> des applications; j'ai créé une architecture
     complète sur <mark>AWS</mark> pour les héberger. Les détails sont sur mon blog.
 
-    Au quotidien, je partage mon temps entre deux projets:
+    J'ai été amené à travailler principalement sur deux projets:
 
     - Une application financière utilisant <mark>Laravel</mark> et <mark>Vue.js</mark> utilisée par des conseillers financiers.
     J'ai écrit le moteur d'export de rapports qui est responsable pour la génération de fichiers PDF donnés aux clients.

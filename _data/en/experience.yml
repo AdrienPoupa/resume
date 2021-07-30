@@ -1,5 +1,19 @@
 # Experience template
 - title: Experience
+
+- layout: left
+  company: Turbulent
+  link: https://turbulent.ca
+  location: Montreal, Canada
+  job_title: Full-Stack Developer
+  dates: Since October 2020
+  description: |
+    I am working on [Star Citizen](https://robertsspaceindustries.com)'s e-commerce website.
+    Backend technologies are PHP, Node.js + TypeScript; frontend is based on React + TypeScript.
+
+    I improved the cart flow performance resulting in stability during major sale events,
+    and reduced pipeline duration by half leading to increased developer productivity.
+
 - layout: left
   company: SimplyPHP
   link: https://www.simplyphp.com
@@ -7,15 +21,13 @@
   job_title: Full-Stack Developer
   dates: March 2019 - October 2020
   description: |
-    As a full-stack developer at SimplyPHP, I usually work on <mark>PHP</mark> applications based on <mark>Laravel</mark>
-    and <mark>Vue.js</mark>.
-    Sometimes, I may have to work on applications using <mark>WordPress</mark>, <mark>Zend Framework</mark>,
-    <mark>jQuery</mark> and other related technologies and languages.
+    Worked on <mark>PHP</mark> applications based on <mark>Laravel</mark> and <mark>Vue.js</mark>, also sometimes on
+    <mark>WordPress</mark>, <mark>Zend Framework</mark>, <mark>jQuery</mark> and other related technologies and languages.
 
     I am also very interested in the <mark>DevOps</mark> side of those applications as I created an complete architecture on
     <mark>AWS</mark> to host them. The details are present on my blog.
 
-    I mostly split my time between two projects:
+    I mostly worked on two projects:
 
     - A financial application built on <mark>Laravel</mark> and <mark>Vue.js</mark> used by financial advisors.
     I wrote the export engine that is responsible for generating PDF files that are handed out to the client.
