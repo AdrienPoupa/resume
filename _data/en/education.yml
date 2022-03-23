@@ -19,7 +19,7 @@
     I [replicated](https://github.com/AdrienPoupa/soen7481-project) the paper
     ["How Not to Structure Your Database-backed Web Applications: A Study of Performance Bugs in the Wild"](https://ieeexplore.ieee.org/document/8453153)
     in the Laravel ecosystem. I found performance issues in some open-source applications and I fixed them.
-    - I [added support](https://cdn.poupa.fr/uploads/2020/02/ptidej-csharp-parser.pdf) for C# to the the 
+    - I [added support](https://cdn.poupa.net/uploads/2020/02/ptidej-csharp-parser.pdf) for C# to the the 
     [Ptidej tool suite](http://www.ptidej.net/downloads/tools/ptidejtoolsuite) using ANTLR4.
     - Introduction to Artificial Intelligence: I wrote [3 mini projects](https://github.com/AdrienPoupa/comp6721) in <mark>Java</mark> and <mark>Python</mark>
     to learn about Good Old Fashioned Artificial Intelligence, Machine Learning on datasets and Natural Language Processing.
