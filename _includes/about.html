@@ -1,5 +1,5 @@
 <div class="container intro-container">
-  <h3 id="{{ site.about_title | slugify | default: 'about-me' }}">{{ site.about_title | default:
+  <h3 id="{{ site.about_title[page.lang] | slugify | default: 'about-me' }}">{{ site.about_title[page.lang] | default:
   "About Me" }}</h3>
   <div class="row clearfix">
     {%- if site.about_profile_image -%}
@@ -8,7 +8,7 @@
       </div>
     {%- endif -%}
     <div class="{{ 'col-xs-12 ' }}{%- if site.about_profile_image -%}col-sm-8 col-md-9 col-print-12{%- endif -%}">
-      {{ site.about_content | strip | markdownify }}
+      {{ site.about_content[page.lang] | strip | markdownify }}
     </div>
   </div>
 </div>

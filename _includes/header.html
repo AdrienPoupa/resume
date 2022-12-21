@@ -2,7 +2,7 @@
   <div class="row">
     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-8 header-left">
       <h1>{{ site.name | escape }}</h1>
-      <h2>{{ site.title | escape }}</h2>
+      <h2>{{ site.title[page.lang] | escape }}</h2>
     </div>
     <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 header-right">
       <ul class="icons no-print">
@@ -120,6 +120,16 @@
         <p>
           {{ site.website_title | default: "Web" }}: {% include a.html href=site.website %}{{ site.website | escape }}</a>
         </p>
+      {%- endif -%}
+      {%- if page.lang == 'fr' -%}
+      <p>
+        <a href="/?forceLang=true">See in English</a>
+      </p>
+      {%- endif -%}
+      {%- if page.lang == 'en' -%}
+      <p>
+        <a href="/fr?forceLang=true">Voir en français</a>
+      </p>
       {%- endif -%}
     </div>
   </div>

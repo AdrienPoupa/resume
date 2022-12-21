@@ -1,43 +1,46 @@
 # Site
-repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
+repository: AdrienPoupa/resume
 # favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
 # Content configuration version
 version: 2
 
 # Personal info
-name: Your Name
-title: Your job title
-email: Your email (optional)
+
+name: Adrien Poupa
+title:
+  en: Full-Stack Developer
+  fr: Développeur Full-Stack
+email: adrien@poupa.net
 # email_title: Email (Email title override)
-phone: Your phone number (optional)
+phone:
 # phone_title: Phone (Phone title override)
-website: Your website (eg. https://google.com)(optional)
+website: https://adrien.poupa.net
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-twitter_username: jekyllrb
-github_username:  jekyll
-stackoverflow_username: "00000001"
-dribbble_username: jekyll
-facebook_username: jekyll
-flickr_username: jekyll
-instagram_username: jekyll
-linkedin_username: jekyll
-xing_username: jekyll
-pinterest_username: jekyll
-youtube_username: jekyll
-orcid_username: 0000-0000-0000-0000
-googlescholar_username: D847cGsAAAAJ
+twitter_username:
+github_username: AdrienPoupa
+stackoverflow_username:
+dribbble_username:
+facebook_username:
+flickr_username:
+instagram_username:
+linkedin_username: adrienpoupa
+xing_username:
+pinterest_username:
+youtube_username:
+orcid_username:
+googlescholar_username:
 
 # Additional icon links
 additional_links:
-- title: Link name
-  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-  url: Link url (eg. https://google.com)
+#- title: Link name
+#  icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
+#  url: Link url (eg. https://google.com)
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
 #   url: Link url (eg. https://google.com)
@@ -49,70 +52,535 @@ additional_links:
 # google_analytics: "UA-00000000-0"
 
 # About Section
-# about_title: About Me (Use this to override about section title)
-about_profile_image: Directory of profile image (eg. images/profile.jpg)
-about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
-
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+about_title:
+  en: About Me
+  fr: À propos
+about_profile_image: https://avatars0.githubusercontent.com/u/15086425
+about_content:
+    en: |
+      I am a full-stack developer based in Montreal, QC, Canada.
+      
+      As far as I remember, I have always been interested by computers and programming in general.
+      I started playing around with programming at 13, mainly hacking PHP scripts.
+      
+      I am currently working for [Turbulent](https://turbulent.ca)
+      on [Star Citizen](https://robertsspaceindustries.com)'s e-commerce website.
+      
+      I am also interested in <mark>DevOps</mark>, the <mark>AWS</mark> platform, and the cloud in general.
+      
+      Open-source software is really important for me, so I try to give back to the community as much as I can
+      by creating new packages, sharing the knowledge I have on my blog, submitting pull requests or reporting bugs.
+      
+      I enjoy working with a variety of languages and frameworks and I am always eager to try something new.
+      
+      Born and raised in Toulouse, France, I moved to Montreal in 2017 to pursue a Masters degree in Software Engineering
+      at Concordia University. Before that, I was studying Software Engineering at Efrei near Paris.
+    fr: |
+      Je suis un développeur basé à Montréal, Québec, Canada.
+    
+      D'aussi loin que je me souvienne, j'ai toujours été intéressé par les ordinateurs et la programmation en général.
+      J'ai commencé à écrire mes premières lignes de code à 13 ans, en modifiant des scripts PHP.
+    
+      Je travaille présentement pour [Turbulent](https://turbulent.ca), sur la partie e-commerce
+      du site web de [Star Citizen](https://robertsspaceindustries.com).
+    
+      Je m'intéresse aussi au <mark>DevOps</mark>, la plateforme <mark>AWS</mark>, et le cloud en général.
+    
+      L'open-source est très important pour moi, aussi j'essaie de redonner à la communauté open-source autant que faire
+      se peut en créant de nouveaux packages, en partageant la connaissance que j'ai sur mon blog, en soumettant des
+      pull requests et en signalant des bugs.
+    
+      J'apprécie de travailler avec des langages et frameworks différents, aussi, je suis toujours partant pour essayer
+      de nouvelles choses.
+    
+      Ayant grandi à Toulouse en France, j'ai suivi des études d'informatique à l'Efrei près de Paris avant de déménager à
+      Montréal en 2017 pour finir mes études. J'y ai obtenu une maîtrise en génie logiciel à l'université Concordia avant de
+      commencer à travailler.
 
 content:
-  - title: Projects # Title for the section
+  - title:
+      en: Projects
+      fr: Projets
     layout: list # Type of content section (list/text)
     content:
-      - layout: left
-        border: weak  # Value of `weak` will display a weak border below this item. # Any 
+      - layout: top-middle
+        border: weak  # Value of `weak` will display a weak border below this item. # Any
                       # other value (or no value) means no border will be displayed
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
+        title: Vinyl Music Player
+        link: https://adrien.poupa.net/introducing-vinyl-music-player
+#        link_text: Link Text
         additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          - title: GitHub
             icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+            url: AdrienPoupa/VinylMusicPlayer
         quote: >
-          Short overview of the project (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
-  - title: Experience
-    layout: list
-    content:
-      - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
-        quote: >
-          Short description of the company (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of role
-  - title: Education
-    layout: list
-    content:
-      - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
-        quote: >
-          Short institution or course description (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of qualification
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+          Light and slick material design music player for Android
+        description:
+          en: |
+            This is a local music player for <mark>Android</mark>, written in <mark>Java</mark>. Forked from Phonograph, it is easy to use and customizable
+            (multiple themes including a dark one). It supports folder browsing, sleep timer and a tag editor.
+            
+            It currently has over 10,000 installs on the [Play Store](https://play.google.com/store/apps/details?id=com.poupa.vinylmusicplayer)
+            and over 400 stars on [GitHub](https://github.com/AdrienPoupa/VinylMusicPlayer).
+            Because I care about open-source, it is also available on the [F-Droid](https://f-droid.org/packages/com.poupa.vinylmusicplayer) application store.
+          fr: |
+            Vinyl Music Player est un lecteur musical local pour <mark>Android</mark>, écrit en <mark>Java</mark>.
+            Forké depuis Phonograph, il a un design material qui suit les directives de Google et qui est agréable à l'oeil.
+            Il est facile d'utilisation et customisable (plusieurs thèmes sont disponibles, dont un noir).
+            Il permet la navigation par répertoires, a une minuterie et un éditeur de tags.
 
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+            Il a actuellement plus de 10,000 installations sur le [Play Store](https://play.google.com/store/apps/details?id=com.poupa.vinylmusicplayer)
+            et plus de 400 étoiles sur [GitHub](https://github.com/AdrienPoupa/VinylMusicPlayer).
+            Parce que l'open-source est important pour moi, il est aussi disponible sur [F-Droid](https://f-droid.org/packages/com.poupa.vinylmusicplayer).
+      - layout: top-middle
+        border: weak  # Value of `weak` will display a weak border below this item. # Any
+        # other value (or no value) means no border will be displayed
+        title: Attestation de Déplacement
+        link: https://github.com/AdrienPoupa/AttestationDeplacement
+#        link_text: Link Text
+        additional_links:
+          - title: GitHub
+            icon: fab fa-github
+            url: AdrienPoupa/AttestationDeplacement
+        quote: >
+          Travel certificate Android application during France's COVID lockdown
+        description:
+          en: |
+            At the peak of the epidemic wave, the French government mandated the usage of travel certificates to curb the number
+            of cases. Those certificates were required to run errands including going to the grocery store.
+            The application provided an official form as well as a website to fill it, but no native mobile application.
+        
+            I created a clean, simple and permissionless application to fill the form from a native application.
+            It was very successful as it reached 1 million of active devices in December 2020 on the Play Store alone.
+        
+            I am glad to have been able to help many people through a difficult time.
+          fr: |
+            Devant l'absence de solution gouvernementale native, le site web proposé ne remplacant pas à mon sens une application
+            native, j'ai développé une application simple, propre et ne nécessitant aucune permission pour remplir le formulaire
+            d'attestation de déplacement.
+
+            Cette application a été trés populaire et fut installée plus d'un million de fois en
+            décembre 2020. Je suis fier d'avoir aidé tant de personnes durant ces temps incertains.
+      - layout: top-middle
+        border: weak  # Value of `weak` will display a weak border below this item. # Any
+        # other value (or no value) means no border will be displayed
+        title: Laradose
+        link: https://github.com/AdrienPoupa/laradose
+#        link_text: Link Text
+        additional_links:
+          - title: GitHub
+            icon: fab fa-github
+            url: AdrienPoupa/laradose
+        quote: >
+          Customizable Docker-compose template made for Laravel
+        description:
+          en: |
+            Laradose aims to bring a light yet powerful and configurable <mark>Docker-compose</mark> configuration to run a <mark>Laravel</mark> application locally.
+
+            Installation and configuration are made easy with the provided Bash script. Custom settings are saved in Laravel's .env.
+          fr: |
+            Laradose propose une configuration Docker compose légère mais puissante pour lancer des applications Laravel localement.
+
+            L'installation et la configuration sont rendues faciles grâce au script Bash fourni. Les paramètres sont sauvegardés dans le fichier .env de Laravel.
+      - layout: top-middle
+        border: none  # Value of `weak` will display a weak border below this item. # Any
+        # other value (or no value) means no border will be displayed
+        title: Laradate
+        link: https://laradate.xyz
+#        link_text: Link Text
+        additional_links:
+          - title: GitHub
+            icon: fab fa-github
+            url: AdrienPoupa/laradose
+        quote: >
+          Doodle alternative built using Laravel
+        description:
+          en: |
+            This is a <mark>Laravel</mark> application that provides an alternative to the well-known proprietary service [Doodle](https://doodle.com).
+            
+            It is a rewrite of [Framadate](https://framadate.org/). I plan to refactor the frontend to use <mark>Vue.js</mark> or <mark>React</mark>.
+          fr: |
+            Il s'agit d'une application <mark>Laravel</mark> fournissant une alternative au bien connu service propriétaire [Doodle](https://doodle.com).
+
+            C'est une réécriture de [Framadate](https://framadate.org/). Je prévois de réécrire le frontend en utilisant <mark>Vue.js</mark> ou <mark>React</mark>.
+  - title:
+      en: Experience
+      fr: Experience
+    layout: list
+    content:
+      - layout: left
+        title: Turbulent
+        link: https://turbulent.ca
+        location: Montreal, Canada
+        sub_title:
+          en: Full-Stack Developer
+          fr: Développeur Full-Stack
+        caption:
+          en: Since October 2020
+          fr: Depuis Octobre 2020
+        description:
+          en: |
+            I am working on [Star Citizen](https://robertsspaceindustries.com)'s e-commerce website.
+            Backend technologies are <mark>PHP</mark>, <mark>Node.js</mark> + <mark>TypeScript</mark>;
+            frontend is based on <mark>React</mark> + <mark>TypeScript</mark>.
+        
+            I improved the cart flow performance resulting in stability during major sale events,
+            and reduced pipeline duration by half leading to increased developer productivity.
+          fr: |
+            Je travaille sur le site web de [Star Citizen](https://robertsspaceindustries.com), plus précisement l'aspect
+            de vente en ligne. Les technologies backend sont <mark>PHP</mark>, <mark>Node.js</mark> + <mark>TypeScript</mark>,
+            ainsi que <mark>React</mark> + <mark>TypeScript</mark> en frontend.
+
+            J'ai été amené à améliorer des performances du tunnel de vente pour supporter les pics de traffic
+            durant les événements de vente majeurs.
+            J'ai aussi réduit le temps d'exécution des pipelines résultant en une amélioration de la productivité de l'équipe.
+      - layout: left
+        title: SimplyPHP
+        link: https://www.simplyphp.com
+        location: Montreal, Canada
+        sub_title:
+          en: Full-Stack Developer
+          fr: Développeur Full-Stack
+        caption:
+          en: March 2019 - October 2020
+          fr: Mars 2019 - Octobre 2020
+        description:
+          en: |
+            Worked on <mark>PHP</mark> applications based on <mark>Laravel</mark> and <mark>Vue.js</mark>, also sometimes on
+            <mark>WordPress</mark>, <mark>Zend Framework</mark>, <mark>jQuery</mark> and other related technologies and languages.
+        
+            I am also very interested in the <mark>DevOps</mark> side of those applications as I created an complete architecture on
+            <mark>AWS</mark> to host them. The details are present on my blog.
+        
+            I mostly worked on two projects:
+        
+            - A financial application built on <mark>Laravel</mark> and <mark>Vue.js</mark> used by financial advisors.
+            I wrote the export engine that is responsible for generating PDF files that are handed out to the client.
+            I also wrote a generic integration engine that allows fetching financial data from various external providers.
+            I am the principal maintainer of the application so I am responsible for bug fixing and developing new features as well.
+            - A multi tenant legacy <mark>PHP</mark> application for which I created the <mark>AWS</mark> infrastructure mentioned above.
+            There were discrepancies between the tenants' databases that I fixed.
+            I created a new <mark>Laravel</mark> application that runs next to the legacy application that is used to
+            create new features using a modern technology stack, using the strangler pattern.
+          fr: |
+            En tant que développeur full-stack à SimplyPHP, je travaillais quotidiennement sur des applications <mark>PHP</mark>
+            utilisant principalement sur les frameworks <mark>Laravel</mark> pour le backend et <mark>Vue.js</mark> pour le frontend.
+            J'ai aussi été amené à travailler sur des applications utilisant <mark>WordPress</mark>, <mark>Zend Framework</mark>,
+            <mark>jQuery</mark> et autres.
+
+            Je suis également très intéressé par le côté <mark>DevOps</mark> des applications; j'ai créé une architecture
+            complète sur <mark>AWS</mark> pour les héberger. Les détails sont sur mon blog.
+
+            J'ai été amené à travailler principalement sur deux projets:
+
+            - Une application financière utilisant <mark>Laravel</mark> et <mark>Vue.js</mark> utilisée par des conseillers financiers.
+            J'ai écrit le moteur d'export de rapports qui est responsable pour la génération de fichiers PDF donnés aux clients.
+            J'ai également écrit une intégration générique supportant plusieurs aggrégateurs de données financières.
+            En tant que développeur principal de cette application, je suis responsable pour le développement de nouvelles
+            fonctionnalités et pour la correction de bugs.
+            - Une application multi-tenant legacy écrite en PHP procédural pour laquelle j'ai créé l'architecture <mark>AWS</mark>
+            mentionnée plus haut. J'ai réglé les différences entre les différentes bases de données des différents tenants et
+            j'ai créé une nouvelle application <mark>Laravel</mark> intégrée à l'application legacy pour développer les nouvelles
+            fonctionnalités sur une stack moderne et appliquer le strangler pattern.
+      - layout: left
+        title: KDS
+        link: https://www.kds.fr
+        location: Issy-Les-Moulineaux, France
+        sub_title:
+          en: R&D Intern
+          fr: Stagiaire R&D
+        caption:
+          en: April 2017 - August 2017
+          fr: Avril 2017 - Août 2017
+        description:
+          en: |
+            KDS is a global provider of a corporate travel management software solution.
+            During my internship, I worked on their software written in <mark>C#</mark> and <mark>Ember.js</mark>.
+        
+            I refactored the internal API to comply with REST architecture.
+        
+            I migrated the mocking framework from RhinoMocks to Moq.
+        
+            I prepared the repository for a migration from <mark>SVN</mark> to <mark>Git</mark> by removing unnecessary files
+            from the Git history.
+          fr: |
+            KDS est une compagnie éditant KDS Neo, un logiciel de gestion des voyages et des notes de frais.
+            Pendant mon stage, j'ai travaillé sur leur logiciel écrit en <mark>C#</mark> et <mark>Ember.js</mark>
+
+            J'ai réécrit l'API interne pour la rendre compatible avec les standards REST.
+
+            J'ai migré le framework de mock de RhinoMocks à Moq.
+
+            J'ai préparé le repository SVN pour une migration à Git en supprimant les fichiers superflus de l'historique Git.
+      - layout: left
+        title: SepEfrei
+        link: https://www.sepefrei.fr
+        location: Villejuif, France
+        sub_title:
+          en: Web Developer
+          fr: Développeur Web
+        caption:
+          en: January 2016 - June 2017
+          fr: Janvier 2016 - Juin 2017
+        description:
+          en: |
+            During my time at Efrei, I worked as a freelancer for Efrei's junior enterprise, SepEfrei.
+        
+            I developed a few projects, including [BlockPharma](https://www.blockpharma.com), a <mark>Laravel</mark> application
+            that uses the blockchain to fight against drug counterfeiting by associating the datamatrix present on each
+            drug's package to a unique blockchain transaction by using additional data.
+            That way, the drug's history cannot be altered.
+          fr: |
+            Pendant mes études à l'Efrei, j'ai travaillé comme développeur freelance pour la junior entreprise de l'Efrei, SepEfrei.
+
+            J'ai développé plusieurs projects, dont [BlockPharma](https://www.blockpharma.com), une application Laravel qui utilise
+            la blockchain pour lutter contre la contrefaçon des médicaments. Elle utilise le datamatrix présent sur chaque emballage
+            de médicament en l'insérant dans la blockchain, écrivant l'information de manière irréversible, résultant en un
+            historique inaltérable propre à chaque paquet.
+      - layout: left
+        title: Diagamter
+        link: https://www.diagamter.com
+        location: Toulouse, France
+        sub_title:
+          en: Intern Web Developer
+          fr: Développeur Web Stagiaire
+        caption:
+          en: June 2016 - September 2016
+          fr: Juin 2016 - Septembre 2016
+        description:
+          en: |
+            Diagamter's main activity is to screen housing properties. That includes checking for issues such as the presence of
+            asbestos or termites, but also getting information about the property such as the surface or the isolation.
+            Such checks are mandatory when selling or renting a property in France.
+            Diagamter’s customers include technicians, notaries, real estate agencies and end customers.
+        
+            Diagamter sells its brand and IT platform, called monDiagamter, to franchisers.
+            This platform is based on <mark>Laravel</mark>, and I gained my first professional experience developing
+            new features on the platform.
+        
+            Once my internship was over, I kept working for them as a freelancer when needed;
+            I helped building the end customer website as well as the careers website.
+          fr: |
+            L'activité principale de Diagamter est réaliser des diagnostics immobiliers. Diagamter vend sa marque à des franchisés
+            indépendants qui utilisent la solution logicielle qui leur est proposée, monDiagamter. Les clients de Diagamter
+            incluent des diagnostiqueurs immobiliers, des notaires, des agences immobilières et des clients finaux.
+
+            La plateforme est basée sur <mark>Laravel</mark>.
+
+            Une fois mon stage terminé, j'ai continué à travailler pour Diagamter en tant que freelance lorsque nécessaire.
+            J'ai aidé à bâtir le site vitrine où le client peut directement réserver un diagnostic ainsi que le site carrières.
+      - layout: left
+        title: Orange
+        link: https://www.orange.fr
+        location: Blagnac, France
+        sub_title:
+          en: Intern Web Developer
+          fr: Développeur Web Stagiaire
+        caption:
+          en: June 2015 - August 2015
+          fr: Juin 2015 - Août 2015
+        description:
+          en: |
+            During my first internship, I worked for Orange, the biggest telecom service provider in France.
+        
+            I worked on a <mark>PHP</mark> application called Part Variable Vendeur - Orange Promotion, responsible for
+            calculating the variable part of sellers. It was built on the Orange Framework & Tools, an homemade framework based
+            on components from <mark>Zend Framework 2</mark> and <mark>Symfony</mark>.
+          fr: |
+            Pendant mon premier stage en entreprise, j'ai travaillé pour Orange, le plus gros FAI de France.
+
+            J'ai travaillé sur une application <mark>PHP</mark> nommée Part Variable Vendeur - Orange Promotion, responsable
+            du calcul de la part variable des vendeurs. Elle se base sur l'Orange Framework & Tools, un framework maison
+            basé sur des composants venant de <mark>Zend Framework 2</mark> et <mark>Symfony</mark>.
+  - title:
+      en: Education
+      fr: Éducation
+    layout: list
+    content:
+      - layout: left
+        title: Concordia University
+        link: https://www.concordia.ca
+        caption:
+          en: September 2017 - December 2018
+          fr: Septembre 2017 - Décembre 2018
+        location: Montreal, Canada
+        sub_title:
+          en: MEng Software Engineering
+          fr: Maîtrise en génie logiciel
+        description:
+          en: |
+            It is a 2-year [program](https://www.concordia.ca/ginacody/computer-science-software-eng/programs/software-eng/meng.html) dedicated to Software Engineering.
+            aimed at enhancing analytic and design skills as well as improve one's ability to present technical material in written form.
+            Throughout the program, I was trained to work on all aspects of the software product life cycle and learned
+            how to develop high-capacity computer software in a controlled, systematic and quantifiable manner and
+            ensure it is reliable, efficient and economic.
+            
+            Here is the list of the courses I have taken:
+            - Advanced Programming Practices:
+            I wrote a [tweet displayer](https://github.com/AdrienPoupa/soen6441) using the <mark>Play framework</mark> in <mark>Java</mark>.
+            I [replicated](https://github.com/AdrienPoupa/soen7481-project) the paper
+            ["How Not to Structure Your Database-backed Web Applications: A Study of Performance Bugs in the Wild"](https://ieeexplore.ieee.org/document/8453153)
+            in the Laravel ecosystem. I found performance issues in some open-source applications and I fixed them.
+            - I [added support](https://cdn.poupa.net/uploads/2020/02/ptidej-csharp-parser.pdf) for C# to the the
+            [Ptidej tool suite](https://www.ptidej.net/downloads/tools/ptidejtoolsuite) using ANTLR4.
+            - Introduction to Artificial Intelligence: I wrote [3 mini projects](https://github.com/AdrienPoupa/comp6721) in <mark>Java</mark> and <mark>Python</mark>
+            to learn about Good Old Fashioned Artificial Intelligence, Machine Learning on datasets and Natural Language Processing.
+            - Software Verification and Testing:
+            I wrote a [static bug detector](https://github.com/AdrienPoupa/soen7481-assignment) in <mark>Java</mark>.
+            - Advanced Design Software Architecture
+            - Software Comprehension and Maintenance
+            - Software Design Methodologies
+            - Software Engineering Processes
+            - Software Measurement
+            - Software Project Management
+            - Systems Requirements Specifications
+          fr: |
+            [Programme](https://www.concordia.ca/ginacody/computer-science-software-eng/programs/software-eng/meng.html) de
+            deux ans dédié au génie logiciel, visant à améliorer les capacités analytiques ainsi que la communication technique à l'écrit.
+            Tout au long du programme, j'ai été amené à travailler sur tous les aspects du cycle de vie logiciel et j'ai appris
+            comment développer des logiciels fiables, sécuritaires et économes.
+
+            Voici la listes des cours que j'ai pris:
+            - Advanced Programming Practices:
+            J'ai écrit un [afficheur de tweets](https://github.com/AdrienPoupa/soen6441) avec le <mark>framework Play</mark> en <mark>Java</mark>.
+            J'ai [répliqué](https://github.com/AdrienPoupa/soen7481-project) le papier
+            ["How Not to Structure Your Database-backed Web Applications: A Study of Performance Bugs in the Wild"](https://ieeexplore.ieee.org/document/8453153)
+            dans l'écosystème Laravel. J'ai trouvé des problèmes de performances et je les ai réglés.
+            - J'ai [ajouté le support](https://cdn.poupa.net/uploads/2020/02/ptidej-csharp-parser.pdf) du C# à la 
+            [Ptidej tool suite](http://www.ptidej.net/downloads/tools/ptidejtoolsuite) en utilisant ANTLR4.
+            - Introduction to Artificial Intelligence: J'ai écrit [3 mini projets](https://github.com/AdrienPoupa/comp6721) en <mark>Java</mark> et <mark>Python</mark>
+            à propos du Good Old Fashioned Artificial Intelligence, du Machine Learning et du Natural Language Processing.
+            - Software Verification and Testing:
+            J'ai écrit un [détecteur de bugs statique](https://github.com/AdrienPoupa/soen7481-assignment) en <mark>Java</mark>.
+            - Advanced Design Software Architecture
+            - Software Comprehension and Maintenance
+            - Software Design Methodologies
+            - Software Engineering Processes
+            - Software Measurement
+            - Software Project Management
+            - Systems Requirements Specifications
+      - layout: left
+        title: Efrei
+        link: https://www.efrei.fr
+        caption:
+          en: September 2015 - August 2017
+          fr: Septembre 2015 - Août 2017
+        location: Villejuif, France
+        sub_title:
+          en: Bachelor and Master of Software Engineering
+          fr: Baccalauréat et Maîtrise en génie logiciel
+        description:
+          en: |
+            I started to study computer science and software engineering full-time at Efrei
+            (Engineering School of Information and Digital Technologies),
+            where I prepared an engineering bachelor and masters degree in software engineering.
+            
+            I obtained my undergraduate degree in software engineering there, and took advantage of the dual-degree program
+            they had with Concordia University to move to Montreal. This means that graduating in Montreal made me also
+            graduate from Efrei with a Masters.
+            
+            I did some interesting projects, most notably a [C# chat](https://github.com/AdrienPoupa/chat) that uses TCP sockets
+            and an [Android application](https://github.com/AdrienPoupa/epollen) to show pollen forecast.
+          fr: |
+            J'ai étudié le génie logiciel à temps plein à l'Efrei
+            (École d'ingénieur généraliste en informatique et technologies du numérique)
+            où j'ai préparé un diplôme génie logiciel.
+
+            J'y ai obtenu mon baccalauréat en génie logiciel, et j'ai profité de l'opportunité de pouvoir participer à un
+            programme de double-diplôme avec l'université Concordia pour finir mes études à Montréal. Ainsi, l'obention de
+            mon diplôme canadien a resulté en l'obtention de ma maîtrise de l'Efrei.
+            Je suis donc également ingénieur agréé CTI en France.
+
+            J'ai réalisé des projets intéressants, notamment un [chat en C#](https://github.com/AdrienPoupa/chat) 
+            utilisant des sockets TCP et une [application Android](https://github.com/AdrienPoupa/epollen) 
+            montrant les niveaux de pollens.
+      - layout: left
+        title: APU
+        link: https://www.apu.edu.my
+        caption:
+          en: April 2016 - June 2016
+          fr: Avril 2016 - Juin 2016
+        location: Kuala Lumpur, Malaysia
+        description:
+          en: |
+            Exchange semester done while I was studying at Efrei. This is when I discovered what living abroad was like for the
+            first time and that played a major role in my decision to move to Canada.
+            
+            I took the following courses there:
+            - Entrepreneurship
+            - Operating Systems
+            - Introduction to Web Programming
+            - Object Oriented Methods with UML
+          fr: |
+            Semestre d'échange lors de mes études à l'Efrei. C'est lors de cettte occasion que j'ai découvert la vie quotidienne
+            hors de France. Cela a joué un rôle majeur dans ma décision de vivre au Canada.
+
+            J'y ai pris les cours suivants:
+            - Entrepreneurship
+            - Operating Systems
+            - Introduction to Web Programming
+            - Object Oriented Methods with UML
+      - layout: left
+        title: Icam
+        link: https://www.icam.fr
+        caption:
+          en: September 2013 - August 2015
+          fr: Septembre 2013 - Août 2015
+        location: Toulouse, France
+        description:
+          en: |
+            Two-year undergraduate intensive course in mathematics, physics, engineering sciences and computer science.
+            
+            Icam (Institut Catholique des Arts et Metiers) is a general engineering school, with a focus in mechanic.
+            
+            At the term of this two-year formation, I passed a national exam (Banque PT) and entered Efrei,
+            which was my top choice as I wanted to prepare a software engineering degree rather than a mechanical one.
+          fr: |
+            Classe préparatoire PTSI/PT, avec des cours intensifs en mathématiques, physiques et sciences de l'ingénieur.
+
+            L'Icam (Institut Catholique des Arts et Métiers) est une école d'ingénieurs générale orientée vers la mécanique.
+
+            A l'issue de ces deux ans, j'ai passé le concours Banque PT et j'ai intégré l'Efrei, voulant me réorienter vers
+            un cursus plus informatique que mécanique.
+  - title:
+      en: When I'm Not Programming
+      fr: Quand je ne suis pas derrière un écran...
+    layout: text
+    content:
+      en: |
+        When I'm not behind a computer, you can usually find me devoting myself to one of my hobbies.
+        
+        In the summer, it is leg day everyday as I bike everywhere. I find biking to work very rewarding. Some day, I will also bike during the winter!
+        
+        In the winter, as I still need to exercise, I play badminton.
+        
+        I like to discover Quebec's nature when I go on hikes, especially during Fall when temperatures drop and the foliage turn from green to auburn and gold.
+        
+        Cooking is my way relax, it is usually a good recipe to clear my mind.
+      fr: |
+        Je suis un développeur basé à Montréal, Québec, Canada.
+      
+        D'aussi loin que je me souvienne, j'ai toujours été intéressé par les ordinateurs et la programmation en général.
+        J'ai commencé à écrire mes premières lignes de code à 13 ans, en modifiant des scripts PHP.
+      
+        Je travaille présentement pour [Turbulent](https://turbulent.ca), sur la partie e-commerce
+        du site web de [Star Citizen](https://robertsspaceindustries.com).
+      
+        Je m'intéresse aussi au <mark>DevOps</mark>, la plateforme <mark>AWS</mark>, et le cloud en général.
+      
+        L'open-source est très important pour moi, aussi j'essaie de redonner à la communauté open-source autant que faire
+        se peut en créeant de nouveaux packages, en partageant la connaissance que j'ai sur mon blog, en soumettant des
+        pull requests et en signalant des bugs.
+      
+        J'apprécie de travailler avec des langages et frameworks différents, aussi, je suis toujours partant pour essayer
+        de nouvelles choses.
+      
+        Ayant grandi à Toulouse en France, j'ai suivi des études d'informatique à l'Efrei près de Paris avant de déménager à
+        Montréal en 2017 pour finir mes études. J'y ai obtenu une maîtrise en génie logiciel à l'université Concordia avant de
+        commencer à travailler.
 
 # Footer
-footer_show_references: true
+footer_show_references: false
 # references_title: References on request (Override references text)
 
 # Build settings
