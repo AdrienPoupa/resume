@@ -112,7 +112,7 @@ content:
         additional_links:
           - title: GitHub
             icon: fab fa-github
-            url: VinylMusicPlayer/VinylMusicPlayer
+            url: https://github.com/VinylMusicPlayer/VinylMusicPlayer
         quote: >
           Light and slick material design music player for Android
         description:
@@ -141,7 +141,7 @@ content:
         additional_links:
           - title: GitHub
             icon: fab fa-github
-            url: AdrienPoupa/AttestationDeplacement
+            url: https://github.com/AdrienPoupa/AttestationDeplacement
         quote: >
           Travel certificate Android application during France's COVID lockdown
         description:
@@ -170,7 +170,7 @@ content:
         additional_links:
           - title: GitHub
             icon: fab fa-github
-            url: AdrienPoupa/laradose
+            url: https://github.com/AdrienPoupa/laradose
         quote: >
           Customizable Docker-compose template made for Laravel
         description:
@@ -191,7 +191,7 @@ content:
         additional_links:
           - title: GitHub
             icon: fab fa-github
-            url: AdrienPoupa/laradose
+            url: https://github.com/AdrienPoupa/laradose
         quote: >
           Doodle alternative built using Laravel
         description:
