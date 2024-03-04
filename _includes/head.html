@@ -6,8 +6,8 @@
   <title>{{ site.name }} | {{ site.title[page.lang] }}</title>
   {%- seo title=false -%}
 
-  <link rel="stylesheet" href="assets/main.css">
-  <link rel="shortcut icon" type="image/x-icon" href="assets/favicon.ico">
+  <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
+  <link rel="shortcut icon" type="image/x-icon" href="{{ site.favicon | default: '/assets/favicon.ico' | relative_url }}">
 
   {%- if page.lang == 'fr' -%}
   <link rel="alternate" hreflang="en" href="?forceLang=true" />
@@ -17,7 +17,7 @@
   <link rel="alternate" hreflang="fr" href="fr?forceLang=true" />
   {%- endif -%}
 
-  <script type="text/javascript" src="assets/js/redirect.js"></script>
+  <script type="text/javascript" src="/assets/js/redirect.js"></script>
 
   {%- if jekyll.environment == 'production' and site.google_analytics -%}
     {%- include google-analytics.html -%}
