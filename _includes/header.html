@@ -123,12 +123,12 @@
       {%- endif -%}
       {%- if page.lang == 'fr' -%}
       <p>
-        <a href="?forceLang=true">See in English</a>
+        <a href="{{ '/?forceLang=true' | relative_url }}">See in English</a>
       </p>
       {%- endif -%}
       {%- if page.lang == 'en' -%}
       <p>
-        <a href="fr?forceLang=true">Voir en français</a>
+        <a href="{{ '/fr?forceLang=true' | relative_url }}">Voir en français</a>
       </p>
       {%- endif -%}
     </div>
