@@ -1,5 +1,6 @@
 # Site
 repository: AdrienPoupa/resume
+baseurl: /resume
 # favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
 # Content configuration version
