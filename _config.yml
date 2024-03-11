@@ -59,7 +59,7 @@ about_title:
 about_profile_image: https://avatars0.githubusercontent.com/u/15086425
 about_content:
     en: |
-      I am a full-stack developer based in Montreal, QC, Canada.
+      I am a developer based in Montreal, QC, Canada.
       
       As far as I remember, I have always been interested by computers and programming in general.
       I started playing around with programming at 13, mainly hacking PHP scripts.
@@ -106,6 +106,32 @@ content:
     content:
       - layout: top-middle
         border: weak  # Value of `weak` will display a weak border below this item. # Any
+        # other value (or no value) means no border will be displayed
+        title: Docker-Compose NAS
+        link: https://github.com/AdrienPoupa/docker-compose-nas
+        #        link_text: Link Text
+        additional_links:
+          - title: GitHub
+            icon: fab fa-github
+            url: https://github.com/AdrienPoupa/docker-compose-nas
+        quote: >
+          Simple Docker Compose NAS featuring Sonarr, Radarr, Prowlarr, Jellyfin, qBittorrent, PIA VPN and Traefik with SSL support
+        description:
+          en: |
+            After searching for the perfect NAS solution, I realized what I wanted could be achieved with some Docker containers on 
+            a vanilla Linux box. The result is an opinionated Docker Compose configuration capable of browsing indexers to retrieve 
+            media resources and downloading them through a WireGuard VPN with port forwarding. 
+            SSL certificates and remote access through Tailscale are supported.
+            
+            It currently has over 700 stars on [GitHub](https://github.com/AdrienPoupa/docker-compose-nas).
+          fr: |
+            Après avoir cherché la solution NAS parfaite, j'ai réalisé que ce que je voulais pouvait être réalisé avec quelques conteneurs Docker sur une machine Linux classique.
+            Le résultat est une configuration Docker Compose, capable de parcourir les indexeurs pour récupérer les ressources multimédias et de les télécharger via un VPN WireGuard avec transfert de port.
+            Les certificats SSL et l'accès à distance via Tailscale sont pris en charge.
+
+            Il a actuellement plus de 700 étoiles sur [GitHub](https://github.com/AdrienPoupa/docker-compose-nas).
+      - layout: top-middle
+        border: weak  # Value of `weak` will display a weak border below this item. # Any
                       # other value (or no value) means no border will be displayed
         title: Vinyl Music Player
         link: https://adrien.poupa.net/introducing-vinyl-music-player
@@ -122,7 +148,7 @@ content:
             (multiple themes including a dark one). It supports folder browsing, sleep timer and a tag editor.
             
             It currently has over 10,000 installs on the [Play Store](https://play.google.com/store/apps/details?id=com.poupa.vinylmusicplayer)
-            and over 400 stars on [GitHub](https://github.com/VinylMusicPlayer/VinylMusicPlayer).
+            and over 700 stars on [GitHub](https://github.com/VinylMusicPlayer/VinylMusicPlayer).
             Because I care about open-source, it is also available on the [F-Droid](https://f-droid.org/packages/com.poupa.vinylmusicplayer) application store.
           fr: |
             Vinyl Music Player est un lecteur musical local pour <mark>Android</mark>, écrit en <mark>Java</mark>.
@@ -131,7 +157,7 @@ content:
             Il permet la navigation par répertoires, a une minuterie et un éditeur de tags.
 
             Il a actuellement plus de 10,000 installations sur le [Play Store](https://play.google.com/store/apps/details?id=com.poupa.vinylmusicplayer)
-            et plus de 400 étoiles sur [GitHub](https://github.com/VinylMusicPlayer/VinylMusicPlayer).
+            et plus de 700 étoiles sur [GitHub](https://github.com/VinylMusicPlayer/VinylMusicPlayer).
             Parce que l'open-source est important pour moi, il est aussi disponible sur [F-Droid](https://f-droid.org/packages/com.poupa.vinylmusicplayer).
       - layout: top-middle
         border: weak  # Value of `weak` will display a weak border below this item. # Any
@@ -156,7 +182,7 @@ content:
         
             I am glad to have been able to help many people through a difficult time.
           fr: |
-            Devant l'absence de solution gouvernementale native, le site web proposé ne remplacant pas à mon sens une application
+            Devant l'absence de solution gouvernementale native, le site web proposé ne remplaçant pas à mon sens une application
             native, j'ai développé une application simple, propre et ne nécessitant aucune permission pour remplir le formulaire
             d'attestation de déplacement.
 
@@ -214,11 +240,34 @@ content:
         link: https://turbulent.ca
         location: Montreal, Canada
         sub_title:
-          en: Full-Stack Developer
-          fr: Développeur Full-Stack
+          en: Technical Lead
+          fr: Lead Technique
         caption:
-          en: Since October 2020
-          fr: Depuis Octobre 2020
+          en: Since January 2023
+          fr: Depuis Janvier 2023
+        description:
+          en: |
+              Leading a team of developers and devops responsible for Star Citizen's website infrastructure, e-commerce backend and developer tools.
+            
+            - Leading the infrastructure migration from Salt to Kubernetes using Kustomize and ArgoCD
+            - Creating on-demand test environments with ArgoCD
+            - Maintaining the e-commerce backend and developing new features (PHP 8, MySQL, GraphQL)
+          fr: |
+            Direction technique d'une équipe de développeurs et devops responsables de l'infrastructure du site de Star Citizen, du backend de la partie transactionnelle ainsi que des outils de développement.
+
+            - Direction de la migration de l'infrastructure Salt a Kubernetes en utilisant Kustomize
+            - Support des développeurs internes via des outils simplifiant leurs méthodes de travail
+            - Maintenance de la partie backend du site transactionnel et développement de nouvelles fonctionnalités (PHP 8, MySQL, GraphQL)
+      - layout: left
+        title: Turbulent
+        link: https://turbulent.ca
+        location: Montreal, Canada
+        sub_title:
+          en: Senior Backend Developer
+          fr: Développeur Backend Senior
+        caption:
+          en: October 2020 - December 2022
+          fr: Octobre 2020 - Décembre 2022
         description:
           en: |
             I am working on [Star Citizen](https://robertsspaceindustries.com)'s e-commerce website.
@@ -227,14 +276,16 @@ content:
         
             I improved the cart flow performance resulting in stability during major sale events,
             and reduced pipeline duration by half leading to increased developer productivity.
+            I migrated the codebase from PHP 7.2 to PHP 8.1 and implemented static analysis tools (PHPStan, PHPCS, Rector).
           fr: |
-            Je travaille sur le site web de [Star Citizen](https://robertsspaceindustries.com), plus précisement l'aspect
+            Je travaille sur le site web de [Star Citizen](https://robertsspaceindustries.com), plus précisément l'aspect
             de vente en ligne. Les technologies backend sont <mark>PHP</mark>, <mark>Node.js</mark> + <mark>TypeScript</mark>,
             ainsi que <mark>React</mark> + <mark>TypeScript</mark> en frontend.
 
             J'ai été amené à améliorer des performances du tunnel de vente pour supporter les pics de traffic
             durant les événements de vente majeurs.
             J'ai aussi réduit le temps d'exécution des pipelines résultant en une amélioration de la productivité de l'équipe.
+            J'ai migré la base de code de PHP 7.2 en PHP 8.1 en utilisant des outils d'analyse statique (PHPStan, PHPCS, Rector).
       - layout: left
         title: SimplyPHP
         link: https://www.simplyphp.com
@@ -276,7 +327,7 @@ content:
 
             - Une application financière utilisant <mark>Laravel</mark> et <mark>Vue.js</mark> utilisée par des conseillers financiers.
             J'ai écrit le moteur d'export de rapports qui est responsable pour la génération de fichiers PDF donnés aux clients.
-            J'ai également écrit une intégration générique supportant plusieurs aggrégateurs de données financières.
+            J'ai également écrit une intégration générique supportant plusieurs agrégateurs de données financières.
             En tant que développeur principal de cette application, je suis responsable pour le développement de nouvelles
             fonctionnalités et pour la correction de bugs.
             - Une application multi-tenant legacy écrite en PHP procédural pour laquelle j'ai créé l'architecture <mark>AWS</mark>
@@ -488,7 +539,7 @@ content:
             où j'ai préparé un diplôme génie logiciel.
 
             J'y ai obtenu mon baccalauréat en génie logiciel, et j'ai profité de l'opportunité de pouvoir participer à un
-            programme de double-diplôme avec l'université Concordia pour finir mes études à Montréal. Ainsi, l'obention de
+            programme de double-diplôme avec l'université Concordia pour finir mes études à Montréal. Ainsi, l'obtention de
             mon diplôme canadien a resulté en l'obtention de ma maîtrise de l'Efrei.
             Je suis donc également ingénieur agréé CTI en France.
 
@@ -513,7 +564,7 @@ content:
             - Introduction to Web Programming
             - Object Oriented Methods with UML
           fr: |
-            Semestre d'échange lors de mes études à l'Efrei. C'est lors de cettte occasion que j'ai découvert la vie quotidienne
+            Semestre d'échange lors de mes études à l'Efrei. C'est lors de cette occasion que j'ai découvert la vie quotidienne
             hors de France. Cela a joué un rôle majeur dans ma décision de vivre au Canada.
 
             J'y ai pris les cours suivants:
@@ -570,7 +621,7 @@ content:
         Je m'intéresse aussi au <mark>DevOps</mark>, la plateforme <mark>AWS</mark>, et le cloud en général.
       
         L'open-source est très important pour moi, aussi j'essaie de redonner à la communauté open-source autant que faire
-        se peut en créeant de nouveaux packages, en partageant la connaissance que j'ai sur mon blog, en soumettant des
+        se peut en créant de nouveaux packages, en partageant la connaissance que j'ai sur mon blog, en soumettant des
         pull requests et en signalant des bugs.
       
         J'apprécie de travailler avec des langages et frameworks différents, aussi, je suis toujours partant pour essayer
@@ -606,4 +657,4 @@ exclude : [
   "lib/",
   "scripts/",
   "docker-compose.yml",
-  ]
+]
