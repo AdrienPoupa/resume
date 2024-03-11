@@ -37,19 +37,6 @@ jobs:
         bundle exec htmlproofer ./_test-site-1 --disable-external --assume-extension
         bundle exec htmlproofer ./_test-site-2 --disable-external --assume-extension
 
-  ci-skip:
-    runs-on: ubuntu-latest
-    outputs:
-      skip: ${{ steps.ci-skip-step.outputs.ci-skip }}
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-      - id: ci-skip-step
-        uses: mstachniuk/ci-skip@v1
-        with:
-          commit-filter: '[skip ci]'
-
   bump-version-deploy:
     name: Bump Version and Deploy
     runs-on: ubuntu-latest
