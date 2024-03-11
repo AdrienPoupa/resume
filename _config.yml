@@ -247,7 +247,7 @@ content:
           fr: Depuis Janvier 2023
         description:
           en: |
-              Leading a team of developers and devops responsible for Star Citizen's website infrastructure, e-commerce backend and developer tools.
+            Leading a team of developers and devops responsible for Star Citizen's website infrastructure, e-commerce backend and developer tools.
             
             - Leading the infrastructure migration from Salt to Kubernetes using Kustomize and ArgoCD
             - Creating on-demand test environments with ArgoCD
